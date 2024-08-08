@@ -1,0 +1,2074 @@
+{
+	"info": {
+		"_postman_id": "224f1356-7ca9-4435-bbf2-33c4ff87248f",
+		"name": "Sinch CCtr OData Service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9865666"
+	},
+	"item": [
+		{
+			"name": "Get metadata JSON",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get metadata XML",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/$metadata",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"$metadata"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test top 10 - ContactRecords",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/ContactRecords?$top=10",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"ContactRecords"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test top 10 - DimAgents",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/DimAgents?$top=10",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimAgents"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test top 10 - DimAgentProfiles",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/DimAgentProfiles?$top=10",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimAgentProfiles"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test top 10 - DimAgentSkills",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/DimAgentSkills?$top=10",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimAgentSkills"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test top 10 - DimApplications",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/DimApplications?$top=10",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimApplications"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test top 10 - DimApplicationLevels",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/DimApplicationLevels?$top=10",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimApplicationLevels"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test top 10 - DimBillingCategories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/DimBillingCategories?$top=10",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimBillingCategories"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test top 10 - DimCallStatistics",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/DimCallStatistics?$top=10",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimCallStatistics"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test top 10 - DimChannels",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/DimChannels?$top=10",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimChannels"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test top 10 - DimContactResponses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/DimContactResponses?$top=10",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimContactResponses"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test top 10 - DimContactResults",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/DimContactResults?$top=10",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimContactResults"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test top 10 - DimContactSkills",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/DimContactSkills?$top=10",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimContactSkills"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test top 10 - DimContactTerminals",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/DimContactTerminals?$top=10",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimContactTerminals"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test top 10 - DimCssProfiles",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/DimCssProfiles?$top=10",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimCssProfiles"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test top 10 - DimOutboundCampaigns",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/DimOutboundCampaigns?$top=10",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimOutboundCampaigns"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test top 10 - DimTalkTimeDistributions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/DimTalkTimeDistributions?$top=10",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimTalkTimeDistributions"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test top 10 - DimTeams",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/DimTeams?$top=10",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimTeams"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test top 10 - DimTimes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/DimTimes/?$top=10",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimTimes",
+						""
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test top 10 - DimWaitTimeDistributions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/DimWaitTimeDistributions?$top=10",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimWaitTimeDistributions"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test top 10 - FactBillingData",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/FactBillingData?$top=10",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"FactBillingData"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test top 10 - FactCallStatistics",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/FactCallStatistics?$top=10",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"FactCallStatistics"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test top 10 - FactCemAgents",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/FactCemAgents?$top=10",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"FactCemAgents"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test top 10 - FactCemContactArriveds",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/FactCemContactArriveds?$top=10",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"FactCemContactArriveds"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test top 10 - FactCemContactContents",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/FactCemContactContents?$top=10",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"FactCemContactContents"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test top 10 - FactCemContacts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/FactCemContacts?$top=10",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"FactCemContacts"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test top 10 - FactCemQueues",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/FactCemQueues?$top=10",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"FactCemQueues"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test top 10 - FactContactAllocations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/FactContactAllocations?$top=10",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"FactContactAllocations"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test top 10 - FactQueueAgentMatrices",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/FactQueueAgentMatrices?$top=10",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"FactQueueAgentMatrices"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test select one (first)- ContactRecords",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/ContactRecords/{{ContactRecordGUID}}",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"ContactRecords",
+						"{{ContactRecordGUID}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test select one (first)- DimAgents",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/DimAgents/1",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimAgents",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test select one (first)- DimAgentProfiles",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/DimAgentProfiles/1",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimAgentProfiles",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test select one (first)- DimAgentSkills",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/DimAgentSkills/1",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimAgentSkills",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test select one (first)- DimApplications",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/DimApplications/1",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimApplications",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test select one (first)- DimApplicationLevels",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/DimApplicationLevels/1",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimApplicationLevels",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test select one (first)- DimBillingCategories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/DimBillingCategories/1",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimBillingCategories",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test select one (first)- DimCallStatistics",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/DimCallStatistics/1",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimCallStatistics",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test select one (first)- DimChannels",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/DimChannels/1",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimChannels",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test select one (first)- DimContactResponses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/DimContactResponses/1",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimContactResponses",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test select one (first)- DimContactResults",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/DimContactResults/1",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimContactResults",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test select one (first)- DimContactSkills",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/DimContactSkills/1",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimContactSkills",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test select one (first)- DimContactTerminals",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/DimContactTerminals/1",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimContactTerminals",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test select one (first)- DimCssProfiles",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/DimCssProfiles/1",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimCssProfiles",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test select one (first)- DimOutboundCampaigns",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/DimOutboundCampaigns/1",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimOutboundCampaigns",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test select one (first)- DimTalkTimeDistributions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/DimTalkTimeDistributions/1",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimTalkTimeDistributions",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test select one (first)- DimTeams",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/DimTeams/1",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimTeams",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test select one (first)- DimTimes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/DimTimes/1",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimTimes",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test select one (first)- DimWaitTimeDistributions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/DimWaitTimeDistributions/1",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimWaitTimeDistributions",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test select one (first)- FactBillingData",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/FactBillingData/1",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"FactBillingData",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test select one (first)- FactCallStatistics",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/FactCallStatistics/73073",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"FactCallStatistics",
+						"73073"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test select one (first)- FactCemAgents",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/FactCemAgents/10754",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"FactCemAgents",
+						"10754"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test select one (first)- FactCemContactArriveds",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/FactCemContactArriveds/10183",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"FactCemContactArriveds",
+						"10183"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test select one (first)- FactCemContactContents",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/FactCemContactContents/10188",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"FactCemContactContents",
+						"10188"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test select one (first)- FactCemContacts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/FactCemContacts/10188",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"FactCemContacts",
+						"10188"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test select one (first)- FactCemQueues",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/FactCemQueues/12233",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"FactCemQueues",
+						"12233"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test select one (first)- FactContactAllocations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/FactContactAllocations/51133",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"FactContactAllocations",
+						"51133"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test select one (first)- FactQueueAgentMatrices",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/FactQueueAgentMatrices/10524",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"FactQueueAgentMatrices",
+						"10524"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Batch request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n\r\n{\r\n    \"requests\": [\r\n        {\r\n            \"id\": \"1\",\r\n            \"method\": \"GET\",\r\n            \"url\": \"{{BASE_URL}}/FactCemContacts?$filter=ContactGuid eq 12015893-806e-450f-ac6f-2112a774d9a1&select=RowId\"\r\n        },\r\n        {\r\n            \"id\": \"2\",\r\n            \"method\": \"GET\",\r\n            \"url\": \"{{BASE_URL}}/FactCemContacts?$filter=ContactGuid eq 2d1fc2b0-179d-11ec-8d48-14f6d8640315&select=RowId\"\r\n        },\r\n        {\r\n            \"id\": \"3\",\r\n            \"method\": \"GET\",\r\n            \"url\": \"{{BASE_URL}}/FactCemContacts?$filter=ContactGuid eq eaa5e1e5-17a9-11ec-8d48-14f6d8640315\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/$Batch",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"$Batch"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test top 5500 - FactCemContactArriveds (paging test)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/FactCemContactArriveds?$top=55000",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"FactCemContactArriveds"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "55000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FactCEMContacts count",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/FactCemContacts?$count=true&$top=0",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"FactCemContacts"
+					],
+					"query": [
+						{
+							"key": "$count",
+							"value": "true"
+						},
+						{
+							"key": "$top",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Filter with ContactGUID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/FactCemContacts?$filter=ContactGuid eq c43879df-6348-11ec-aa66-bce3a1f3c268&top=100",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"FactCemContacts"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "ContactGuid eq c43879df-6348-11ec-aa66-bce3a1f3c268"
+						},
+						{
+							"key": "top",
+							"value": "100"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Filter with ContactGUID with set of fields",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/FactCemContacts?$filter=ContactGuid eq 099d5b4b-0a23-11eb-aa5d-d9e15a1f1245&$select=CountOfHandledContacts,CountOfAnsweredOnTimeContacts,QueuingTimeInSeconds,TalkingTimeInSeconds,TalkingTimeAgentInSeconds",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"FactCemContacts"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "ContactGuid eq 099d5b4b-0a23-11eb-aa5d-d9e15a1f1245"
+						},
+						{
+							"key": "$select",
+							"value": "CountOfHandledContacts,CountOfAnsweredOnTimeContacts,QueuingTimeInSeconds,TalkingTimeInSeconds,TalkingTimeAgentInSeconds"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FactCemContacts get data for one year",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/FactCemContacts?$filter=(startTime gt 2023-01-01 and startTime lt 2024-01-01)&$count=true",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"FactCemContacts"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "(startTime gt 2023-01-01 and startTime lt 2024-01-01)"
+						},
+						{
+							"key": "$count",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Top sort by desc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/FactCemContacts?$top=15&$orderby=QueuingTimeInSeconds desc&select=ContactGuid,QueuingTimeInSeconds&$skip=10",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"FactCemContacts"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "15"
+						},
+						{
+							"key": "$orderby",
+							"value": "QueuingTimeInSeconds desc"
+						},
+						{
+							"key": "select",
+							"value": "ContactGuid,QueuingTimeInSeconds"
+						},
+						{
+							"key": "$skip",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Top sort by with filter",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/FactCemContacts?$orderby=QueuingTimeInSeconds desc&select=ContactGuid,QueuingTimeInSeconds,Subject&$skip=15&$top=15&$filter=not(Subject eq null or Subject eq %7BAnonymized by DPO%7D)",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"FactCemContacts"
+					],
+					"query": [
+						{
+							"key": "$orderby",
+							"value": "QueuingTimeInSeconds desc"
+						},
+						{
+							"key": "select",
+							"value": "ContactGuid,QueuingTimeInSeconds,Subject"
+						},
+						{
+							"key": "$skip",
+							"value": "15"
+						},
+						{
+							"key": "$top",
+							"value": "15"
+						},
+						{
+							"key": "$filter",
+							"value": "not(Subject eq null or Subject eq %7BAnonymized by DPO%7D)"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Navigation - add agent info",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/FactCemContacts?$top=100&$orderby=TalkingTimeInSeconds desc&$select=TalkingTimeInSeconds,CountOfHandledContacts&$expand=FKAgentProfileNavigation(select=AgentName,InternalNumber) ",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"FactCemContacts"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "100"
+						},
+						{
+							"key": "$orderby",
+							"value": "TalkingTimeInSeconds desc"
+						},
+						{
+							"key": "$select",
+							"value": "TalkingTimeInSeconds,CountOfHandledContacts"
+						},
+						{
+							"key": "$expand",
+							"value": "FKAgentProfileNavigation(select=AgentName,InternalNumber) "
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FactCEMContacts Aggregation",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/FactCemContacts?$top=100&$apply=groupby((FKAgentProfileNavigation/AgentName), aggregate($count as HandledContacts, TalkingTimeInSeconds with sum as TalkingTimeInSeconds))",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"FactCemContacts"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "100"
+						},
+						{
+							"key": "$apply",
+							"value": "groupby((FKAgentProfileNavigation/AgentName), aggregate($count as HandledContacts, TalkingTimeInSeconds with sum as TalkingTimeInSeconds))"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Filter with ContactGUID with set of fields",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/FactCemContacts?$filter=ContactGuid eq 12015893-806e-450f-ac6f-2112a774d9a1&$select=CountOfHandledContacts,CountOfAnsweredOnTimeContacts,QueuingTimeInSeconds,TalkingTimeInSeconds,TalkingTimeAgentInSeconds",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"FactCemContacts"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "ContactGuid eq 12015893-806e-450f-ac6f-2112a774d9a1"
+						},
+						{
+							"key": "$select",
+							"value": "CountOfHandledContacts,CountOfAnsweredOnTimeContacts,QueuingTimeInSeconds,TalkingTimeInSeconds,TalkingTimeAgentInSeconds"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FactQueue / aggregation with sort",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/FactCemQueues?$apply=groupby((FkApplicationLevel), aggregate($count as Rows, ServingTimeInSeconds with sum as ServingTimeInSeconds))&$orderby=FkApplicationLevel",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"FactCemQueues"
+					],
+					"query": [
+						{
+							"key": "$apply",
+							"value": "groupby((FkApplicationLevel), aggregate($count as Rows, ServingTimeInSeconds with sum as ServingTimeInSeconds))"
+						},
+						{
+							"key": "$orderby",
+							"value": "FkApplicationLevel"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FactCemContactsArriveds / aggregate",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/FactCemContactArriveds?$apply=groupby((FkApplicationLevel), aggregate($count as Rows, CountOfArrivedContacts with sum as CountOfArrivedContacts))&$orderby=FkApplicationLevel",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"FactCemContactArriveds"
+					],
+					"query": [
+						{
+							"key": "$apply",
+							"value": "groupby((FkApplicationLevel), aggregate($count as Rows, CountOfArrivedContacts with sum as CountOfArrivedContacts))"
+						},
+						{
+							"key": "$orderby",
+							"value": "FkApplicationLevel"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FactCEMAgent / aggregation with top",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/FactCemAgents?$top=3&$apply=groupby((FKAgentProfileNavigation/AgentName), aggregate($count as HandledContacts, countOfHandledCallIn with sum as countOfHandledCallIn))&$orderby=FKAgentProfileNavigation/AgentName desc",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"FactCemAgents"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "3"
+						},
+						{
+							"key": "$apply",
+							"value": "groupby((FKAgentProfileNavigation/AgentName), aggregate($count as HandledContacts, countOfHandledCallIn with sum as countOfHandledCallIn))"
+						},
+						{
+							"key": "$orderby",
+							"value": "FKAgentProfileNavigation/AgentName desc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FactContactAllocations / aggregation with top",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/FactContactAllocations?$top=100&$apply=groupby((FKAgentProfileNavigation/AgentName), aggregate($count as Counts, Duration with sum as Duration))&$orderby=FKAgentProfileNavigation/AgentName desc",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"FactContactAllocations"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "100"
+						},
+						{
+							"key": "$apply",
+							"value": "groupby((FKAgentProfileNavigation/AgentName), aggregate($count as Counts, Duration with sum as Duration))"
+						},
+						{
+							"key": "$orderby",
+							"value": "FKAgentProfileNavigation/AgentName desc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FactBillingData with aggregation",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/FactBillingData?$apply=groupby((FkBillingCategoryNavigation/Category), aggregate($count as BillingCounts, FkBillingCategoryNavigation/isBillable with sum as Billable ))",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"FactBillingData"
+					],
+					"query": [
+						{
+							"key": "$apply",
+							"value": "groupby((FkBillingCategoryNavigation/Category), aggregate($count as BillingCounts, FkBillingCategoryNavigation/isBillable with sum as Billable ))"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FactCallStatistics",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/FactCallStatistics?$filter=FkCallStatistic gt 0&$top=10",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"FactCallStatistics"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "FkCallStatistic gt 0"
+						},
+						{
+							"key": "$top",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FactCemContactContents with ChatContent data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/FactCemContactContents?&$select=ContactGuid, ChatContent&$filter=(ChatContent ne %7BAnonymized by DPO%7D and ChatContent ne null)&$top=10",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"FactCemContactContents"
+					],
+					"query": [
+						{
+							"key": null,
+							"value": null
+						},
+						{
+							"key": "$select",
+							"value": "ContactGuid, ChatContent"
+						},
+						{
+							"key": "$filter",
+							"value": "(ChatContent ne %7BAnonymized by DPO%7D and ChatContent ne null)"
+						},
+						{
+							"key": "$top",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Navigation - one agent contact info",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/FactCemContacts?$select=RowId",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"FactCemContacts"
+					],
+					"query": [
+						{
+							"key": "$select",
+							"value": "RowId"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get first PkTime for year",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/DimTimes?$top=1&$filter=(TheYear eq '2024')&$orderby=PkTime",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimTimes"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "1"
+						},
+						{
+							"key": "$filter",
+							"value": "(TheYear eq '2024')"
+						},
+						{
+							"key": "$orderby",
+							"value": "PkTime"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Negative - No authorizationkey",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status test\", function () {\r",
+							"    pm.response.to.have.status(401);\r",
+							"});\r",
+							"\r",
+							"var res = pm.response.text();\r",
+							"pm.test(\"Message test\", ()=>{\r",
+							"    pm.expect(res).is.to.equal(\"No Authorization key\");\r",
+							"});\r",
+							"\r",
+							"\r",
+							"pm.test(\"Header www-authenticate test\", function () {\r",
+							"   pm.response.to.have.header(\"www-authenticate\");\r",
+							"   pm.response.to.be.header(\"www-authenticate\", \"Basic realm=\\\"Realm\\\"\")\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/DimAgents?$top=10",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimAgents"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Negative - Wrong userid or password",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status test\", function () {\r",
+							"    pm.response.to.have.status(401);\r",
+							"});\r",
+							"\r",
+							"var res = pm.response.text();\r",
+							"pm.test(\"Message test\", ()=>{\r",
+							"    pm.expect(res).is.to.equal(\"Authentication failed because of wrong credentials (unknown user id or wrong Password)\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Header www-authenticate test\", function () {\r",
+							"   pm.response.to.have.header(\"www-authenticate\");\r",
+							"   pm.response.to.be.header(\"www-authenticate\", \"Basic realm=\\\"Realm\\\"\")\r",
+							"});\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "{{Agent2_UserId}}",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "WrongPassword",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/DimAgents?$top=10",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimAgents"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Negative - No OData user service rights",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status test\", function () {\r",
+							"    pm.response.to.have.status(401);\r",
+							"});\r",
+							"\r",
+							"var res = pm.response.text();\r",
+							"pm.test(\"Message test\", ()=>{\r",
+							"    pm.expect(res).is.to.equal(\"No OData service rights\");\r",
+							"});\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "{{Agent2_Password}}",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "{{Agent2_UserId}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/DimAgents?$top=20",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimAgents"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "20"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Negative - Invalid Authorization header",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status test\", function () {\r",
+							"    pm.response.to.have.status(401);\r",
+							"});\r",
+							"\r",
+							"var res = pm.response.text();\r",
+							"pm.test(\"Message test\", ()=>{\r",
+							"    pm.expect(res).is.to.equal(\"Invalid Authorization header\");\r",
+							"});\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic ThisWillFail",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{BASE_URL}}/DimAgents?$top=10",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"DimAgents"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "password",
+				"value": "{{Password}}",
+				"type": "string"
+			},
+			{
+				"key": "username",
+				"value": "{{UserId}}",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"// Let's skip tests starting Negative, which return other status codes and test are handled on request level",
+					"let name = request.name;",
+					"let skipTest = name.match(\"Negative\")?1:0;",
+					"",
+					"(skipTest ? pm.test.skip: pm.test)(\"Status code is 200\", function () {",
+					"    pm.response.to.have.status(200);",
+					"});",
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "BASE_URL",
+			"value": "https://myUrl/v1",
+			"type": "string"
+		},
+		{
+			"key": "UserId",
+			"value": "Agent1.ODataTest",
+			"type": "string"
+		},
+		{
+			"key": "Password",
+			"value": "Agent1Password",
+			"type": "string"
+		},
+		{
+			"key": "Agent2_UserId",
+			"value": "Agent2.ODataTest",
+			"type": "string"
+		},
+		{
+			"key": "Agent2_Password",
+			"value": "Agent2Password",
+			"type": "string"
+		},
+		{
+			"key": "ContactRecordGUID",
+			"value": "4b177607-958d-ec11-aaea-06430672b5c0",
+			"type": "string"
+		}
+	]
+}
